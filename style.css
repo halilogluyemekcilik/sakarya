@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .bg-bordo {
+    background-color: #732e2e;
+  }
+  
+  .hero {
+    background: url('img/hero.jpg') no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero h1,
+  .hero p {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
