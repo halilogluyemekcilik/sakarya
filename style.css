@@ -1,0 +1,191 @@
+/* GENEL FONT AYARI */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* NAVBAR RENK */
+.bg-bordo {
+  background-color: #542323;
+}
+
+/* NAVBAR YAZI (SOLDA) */
+.haliloglu-yazi {
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  z-index: 2;
+}
+
+/* NAVBAR LOGO (ORTADA) */
+.logo-ortali {
+  height: 50px;
+  z-index: 1;
+}
+
+/* NAVBAR MENÜ LİNKLERİ */
+.nav-link {
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  font-size: 1rem;
+  color: white !important;
+}
+
+/* BAŞLIKLAR */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+}
+
+/* CARD GÖRSELLERİ */
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+/* SLIDER – BÜYÜK GÖRSEL */
+.slider-big {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* SLIDER – ÖNİZLEMELER */
+.slider-preview {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.slider-preview:hover {
+  transform: scale(1.05);
+}
+
+/* SLIDER WRAPPER (gerekirse) */
+.slider-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.54 / 1;
+  overflow: hidden;
+}
+
+/* HİZMET KARTLARI */
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* İLETİŞİM ALANI */
+#iletisim p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* FOOTER */
+.footer-koyu-bordo {
+  background-color: #542323;
+  color: white;
+}
+
+/* LİNKLER */
+a {
+  text-decoration: none;
+}
+
+/* RESPONSIVE: NAVBAR MENÜ MERKEZLEME MOBİL */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .logo-ortali {
+    height: 40px;
+  }
+
+  .haliloglu-yazi {
+    font-size: 1.5rem;
+  }
+}
+/* İletişim kısmı ikonlar ve düzen */
+.contact-item {
+  font-size: 1.1rem;
+}
+
+.contact-link {
+  color: #542323;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #8b1c1c;
+  text-decoration: underline;
+}
+
+.whatsapp-link i {
+  color: #25D366;
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+
+.contact-link i {
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 1.2rem;
+}
+
+.map-responsive {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#basin {
+  background-color: #f8f9fa; /* açık gri arka plan */
+  color: #542323; /* bordo yazı rengi */
+}
+
+#basin h2 {
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#basin p.lead {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sponsor-img {
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  width: 200px; /* genişlik sabitlendi */
+}
+
